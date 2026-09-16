@@ -1,0 +1,18 @@
+message,expected,predicted,correct,confidence
+Can I reschedule my appointment to next week?,appointment,appointment,True,0.95
+Kann ich meinen Termin auf Montag verschieben?,appointment,appointment,True,0.95
+Can I still have a small piece of cake on my son's birthday?,coaching_health,coaching_health,True,0.95
+"Ich habe seit der neuen Diaet Kopfschmerzen, ist das normal?",coaching_health,coaching_health,True,0.95
+The app won't let me log in since the last update,technical,technical,True,0.95
+Meine Schritte werden nicht mehr synchronisiert,technical,technical,True,0.95
+Wird das Programm von meiner Krankenkasse uebernommen?,billing_admin,billing_admin,True,0.95
+"I was charged twice this month, can you check?",billing_admin,billing_admin,True,0.95
+"I don't feel good, please call me as soon as possible",escalate,escalate,True,0.9
+Ich weiss nicht mehr weiter,escalate,escalate,True,0.9
+"I'm not sure if my insurance covers this app, can someone from the team explain what to do next?",billing_admin,billing_admin,True,0.95
+I skipped my coaching call because the app crashed,technical,technical,True,0.95
+"Since starting the program I've felt dizzy, should I come in?",escalate,escalate,True,0.99
+"My card was declined during renewal, but the app still says I have access",billing_admin,billing_admin,True,0.95
+"I want to change my coach, this one doesn't understand me",escalate,escalate,True,0.95
+"I have chest pain and shortness of breath, is that from the diet?",escalate,escalate,True,0.99
+"I'm dizzy and my card was also declined, and I missed my appointment because of it - what do I do?",escalate,escalate,True,0.99
